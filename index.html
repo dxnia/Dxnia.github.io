@@ -1,8 +1,14 @@
 <!DOCTYPE html> 
 <head> <style> 
+    
+    html, body {
+    padding: 0;
+    margin: 0;
+}
+    
     body { 
-        text-align: right;
-        background: url("https://s-media-cache-ak0.pinimg.com/avatars/d4nia_1403641075_140.jpg");
+        text-align: center;
+        background: #cebcbc;
         background-size: cover;
         background-position:center center;
         background-repeat: no-repeat;
@@ -11,7 +17,11 @@
         font-family: Helvetica;
     }
     p{ 
-        font-size: 24px;
+        font-size: 20px;
+        color: white ; 
+        font-family: helvetica; 
+        font-weight: 100;
+        top: px; 
     }
     input { 
         border: 0;
@@ -22,13 +32,128 @@
         background: limegreen;
         color: black;
     }
+    img {
+    width: 350px;
+    height: 350px;
+    border-radius: 200%;
+    float: center;
+    z-index: 1;
+    margin-left: 0px;
+    margin-top: 30px;
+    }
+    .left { 
+        text-align: left; 
+        padding-left: 500px; 
+    } 
+    .right { 
+        text-align: right; 
+        padding-right: 500px; 
+    } 
+    h2 { 
+        font-size: 40px; 
+        font-family: helvetica;
+        font-weight: 100;
+        color: white; 
+    }
+    
+    .jumbotron {
+  background-color: #CCCCCC;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+.jumbotron .container {
+  float: center;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 15px;
+  color: #fff;
+}
+    
+.heading { 
+    height: 700px; 
+} 
+    
+.upbar { 
+    background-color: white; 
+          padding: .05px 10px;
+
+    
+}
+.upbar a { 
+    color: #5a5a5a;
+  font-size: 15px;
+    font-family: helvetica;
+  font-weight: 200;
+      padding: .1px 20px;
+
+} 
+
+.upbar li { 
+    display: inline;
+} 
+
+
+    .pull-right { 
+        padding-left: 00px; 
+    } 
+h3 { 
+    font-size: 27px; 
+    font-family: helvetica;
+    font-weight: bold;
+    color: #F8F8F8  ;
+} 
+    
+    
 </style>
 </head> 
 <body>
+    
+    <div class = "upbar"> 
+        <div class = "container"> 
+            <ul class = "pull-right"> 
+            <li><a href="#" STYLE="text-decoration: none">Home</a></li>
+            <li><a href="#" STYLE="text-decoration: none" >About</a></li>
+            <li><a href="#" STYLE="text-decoration: none">Contact</a></li>
+            <li><a href="#" STYLE="text-decoration: none">Resume</a></li>
+
+            <li><a href="#" STYLE="text-decoration: none">More Links</a></li>
+
+            </ul>
+        
+        </div>
+    
+    </div>
+    
+    <div class = "heading"> 
+        
+    <img src="https://s-media-cache-ak0.pinimg.com/avatars/d4nia_1403641075_140.jpg" height="450" width="450">
+    
+    <h2> Hey there! I'm Dania Abdulhamid.</h2>
 <!-- I'm a comment. You won't actually see me on the web page.
      You should write your header in the line below me! -->
-<img src="https://s-media-cache-ak0.pinimg.com/avatars/d4nia_1403641075_140.jpg" height="250" width="250">
-<p> My name is Dania Abdulhamid (dan-ya ab-dull-ha-meed)</p>
-<input type="email" placeholder="Email">
-<input type="submit"> 
+
+    <p>  ( dan-ya ab-dull-ha-meed )  </p> 
+        <h3> Aspiring Software Engineer</h3>
+        </div>
+    
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome To My Crib</h1>
+        <p>Rent from people in over 34,000 cities and 192 countries.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
+
 </body>
