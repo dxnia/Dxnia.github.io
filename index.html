@@ -5,7 +5,10 @@
     padding: 0;
     margin: 0;
 }
-    
+    * { 
+        padding: 0;
+    margin: 0;
+    } 
     body { 
         text-align: center;
         background: #cebcbc;
@@ -57,10 +60,13 @@
     }
     
     .jumbotron {
-  background-color: #CCCCCC;
-  height: 400px;
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d2/UniversityofMichiganLawLibrary.jpg"); 
+
+        height: 705px;
   background-repeat: no-repeat;
   background-size: cover;
+         padding: 0; 
+        margin: 0;
 }
 }
 
@@ -71,9 +77,10 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 100px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+    top: 500px; 
 }
 
 .jumbotron p {
@@ -81,13 +88,20 @@
   color: #fff;
 }
     
+.jumbotron h4 { 
+    font-size: 70px; 
+    text-outline: 2px 2px #cc8888;
+    
+    
+} 
+    
 .heading { 
     height: 700px; 
 } 
     
 .upbar { 
     background-color: white; 
-          padding: .05px 10px;
+          padding: 10px 20px;
 
     
 }
@@ -114,7 +128,40 @@ h3 {
     font-weight: bold;
     color: #F8F8F8  ;
 } 
+    .heading h5 { 
+    padding: 20;
+    margin: 0;
+    font-size: 100px;
+    font-family: helvetica;  
+        font-weight: 300;
+    } 
     
+    .research { 
+        background-image: url("research.jpg"); 
+        height: 705px;
+        padding: 0; 
+        margin: 0;
+        background-size: 100%;
+            
+    } 
+    .research h1 { 
+        color: #fff;
+  font-size: 100px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+        padding-top: 300px; 
+    } 
+    
+    .transbox { 
+    margin: 0px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+        padding-top: 00px; 
+        height: 100px; 
+        width: 100px; 
+        padding-right: 2000px;
+    } 
     
 </style>
 </head> 
@@ -145,16 +192,24 @@ h3 {
 <!-- I'm a comment. You won't actually see me on the web page.
      You should write your header in the line below me! -->
 
-    <p>  ( dan-ya ab-dull-ha-meed )  </p> 
-        <h3> Aspiring Software Engineer</h3>
-        </div>
+    <p> <br> ( dan-ya ab-dull-ha-meed )  </p> 
+        <h3> <br> Aspiring Software Engineer</h3>
+        <h5> & I...</h5>
+    </div>
+    
     
     <div class="jumbotron">
       <div class="container">
-        <h1>Welcome To My Crib</h1>
-        <p>Rent from people in over 34,000 cities and 192 countries.</p>
-        <a href="#">Learn More</a>
+        <h1>Study</h1>
+        <h4> <br>  I'm a rising sophomore at the University of Michigan - Ann Arbor. <br> Major: Computer Science.</h4>
       </div>
     </div> 
+    
+    <div class ="research"> 
+        <h1>Research...</h1>
+        <div class ="transbox"> 
+        </div>    
+        <h3> I spent the larger part of my freshman year researching Social Anxiety and Generalized Anxiety Disorder through eye-tracking Dot-Probe therapy sessions. From this research, I, along with my partner, designed & structured a gamified app that would mimic the Dot-Probe therapy for social anxiety patients. We then taught ourselves C# & Unity3D in order to create the therapy game.  </h3>
+    </div>
 
 </body>
