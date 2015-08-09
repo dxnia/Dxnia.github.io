@@ -24,7 +24,7 @@
         color: white ; 
         font-family: helvetica; 
         font-weight: 100;
-        top: px; 
+        padding: 0px; 
     }
     input { 
         border: 0;
@@ -127,9 +127,10 @@ h3 {
     font-family: helvetica;
     font-weight: bold;
     color: #F8F8F8  ;
+    padding: 0px; 
 } 
     .heading h5 { 
-    padding: 20;
+    padding: 0;
     margin: 0;
     font-size: 100px;
     font-family: helvetica;  
@@ -142,26 +143,55 @@ h3 {
         padding: 0; 
         margin: 0;
         background-size: 100%;
+        z-index: 1;
             
     } 
     .research h1 { 
-        color: #fff;
-  font-size: 100px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-        padding-top: 300px; 
+      font-size: 90px;
+  bottom: 100.em;
+        padding-bottom: 0px; 
+        padding-top: 240px; 
+      font-family: helvetica;
+      font-weight: 50; 
     } 
     
+    .research h3 { 
+        color: #fff;
+  font-size: 30px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+    } 
     .transbox { 
     margin: 0px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.8;
-        padding-top: 00px; 
+   opacity: 0.8;
+        padding-top: 100px; 
         height: 100px; 
         width: 100px; 
         padding-right: 2000px;
+        z-index: 2; 
     } 
+    
+    
+    
+    .bar {
+  height: 10em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  margin-top: 0.0em;
+}
+    
+  h2.ontop {
+  position: relative;
+      font-size: 25px;
+  bottom: 5.4em;
+      font-family: helvetica;
+      font-weight: 50;
+}
     
 </style>
 </head> 
@@ -206,10 +236,15 @@ h3 {
     </div> 
     
     <div class ="research"> 
-        <h1>Research...</h1>
-        <div class ="transbox"> 
-        </div>    
-        <h3> I spent the larger part of my freshman year researching Social Anxiety and Generalized Anxiety Disorder through eye-tracking Dot-Probe therapy sessions. From this research, I, along with my partner, designed & structured a gamified app that would mimic the Dot-Probe therapy for social anxiety patients. We then taught ourselves C# & Unity3D in order to create the therapy game.  </h3>
+        
+        
+        <h1>Research</h1>
+        
+        
+<div class="bar"></div>
+          
+    <h2 class ="ontop">I spent the larger part of my freshman year researching Social Anxiety and Generalized Anxiety Disorder through eye-tracking Dot-Probe therapy sessions. From this research, I, along with my partner, designed & structured a gamified app that would mimic the Dot-Probe therapy for social anxiety patients. We then taught ourselves C# & Unity3D in order to create the therapy game. It is now under trial testing at the UM health clinic.</h2>
+      
     </div>
-
+    
 </body>
